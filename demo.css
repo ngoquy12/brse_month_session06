@@ -1,0 +1,91 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+h2 {
+  color: blue;
+  font-size: 30px;
+}
+
+#heading-2 {
+  color: purple;
+}
+
+#heading-3 {
+  color: red;
+}
+
+.heading-2 {
+  color: green;
+}
+
+.text-40 {
+  font-size: 40px;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.button {
+  background-color: green;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  color: white;
+}
+
+/* Pseudo Clas */
+/* Kích hoạt khi di chuyển chuột từ ngoài vào trong phần tử */
+.button:hover {
+  background-color: rgb(211, 88, 21);
+  cursor: pointer;
+}
+
+/* Kích hoạt khi nhấn vào phần tử và thả tay */
+.button:focus {
+  background-color: aqua;
+}
+
+/* Kích hoạt khi nhấn và giữ chuột trái */
+.button:active {
+  background-color: blue;
+}
+
+/* Kích hoạt khi tạo thẻ a nhưng chưa nhấn vào */
+.facebook:link {
+  color: red;
+}
+
+/* Kích hoạt khi đã nhấn vào thẻ a và chuyển trang */
+.facebook:visited {
+  color: blue;
+}
+
+.paragraph {
+  color: red;
+}
+
+.paragraph-parent :first-child {
+  color: blue;
+}
+
+.paragraph-parent :last-child {
+  color: yellow;
+}
+
+.paragraph-parent :nth-child(3) {
+  color: brown;
+}
+
+/* pseudo-element dùng CSS để tạo nội dung */
+.pseudo-element::before {
+  content: "***";
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.pseudo-element::after {
+  content: "---";
+}

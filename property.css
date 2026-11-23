@@ -1,0 +1,48 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading-1 {
+  /* RGB */
+  color: rgb(127, 86, 162);
+
+  /* HEX */
+  background-color: #ffd500;
+
+  text-align: center;
+
+  text-decoration: underline;
+
+  font-weight: 900;
+
+  line-height: 100px;
+}
+
+.box {
+  height: 100px;
+  width: 100%;
+  background-color: red;
+}
+
+.box-model {
+  height: 200px;
+  width: 500px;
+  background-color: yellow;
+  /* Nếu có 1 giá trị: áp dụng cho 4 góc */
+  /* nếu có 2 giá trị: giá trị 1: trên-dưới; giá trị 2: trái-phải */
+  /* nếu có 3 giá trị: giá trị 1: trên; giá trị 2: trái-phải; giá trị 3: dưới */
+  /* nếu có 4 giá trị: cùng chiều kim đồng hồ */
+  /* margin: 20px 30px 40px 50px; */
+  /* margin-top: 20px; */
+  margin: 20px 0 0 0;
+
+  /* border-width: 5px;
+  border-color: red;
+  border-style: solid; */
+  border: 5px solid red;
+
+  padding: 20px;
+}
